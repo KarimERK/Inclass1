@@ -13,10 +13,15 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
-        
-        Card eightHrts = new Card("Hearts", 8);
+       
         
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        //This was created in GitHub
+        Card eightHrts = new Card("Hearts", 8);
+        eightHrts.setSuit("Hearts");
+        eightHrts.setValue(8);
+        System.out.println("The card is: " + eightHrts.getValue()+ " of " + eightHrts.getSuit());
     }
 }
