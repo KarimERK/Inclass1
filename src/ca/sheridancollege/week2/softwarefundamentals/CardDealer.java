@@ -23,5 +23,11 @@ public class CardDealer
         eightHrts.setSuit("Hearts");
         eightHrts.setValue(8);
         System.out.println("The card is: " + eightHrts.getValue()+ " of " + eightHrts.getSuit());
+        
+        //New Card created in NetBeans
+        Card fourClbs = new Card("Clubs", 4);
+        fourClbs.setSuit("Clubs");
+        fourClbs.setValue(4);
+        System.out.println("The card is: " + fourClbs.getValue()+ " of " + fourClbs.getSuit());
     }
 }
