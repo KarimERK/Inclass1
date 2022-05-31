@@ -2,13 +2,16 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ *
+ *Edited by Karim Kamel
+ *Student ID: 991653561
+ *
  */
 package ca.sheridancollege.week2.softwarefundamentals;
 
 /**
  * A class to model Card Objects.
  * Created in Week 2 for the cloning repository demo
- * @author dancye, 2019
  */
 public class Card 
 {
