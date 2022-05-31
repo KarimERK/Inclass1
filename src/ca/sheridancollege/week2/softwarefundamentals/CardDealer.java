@@ -13,6 +13,9 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
+        
+        Card eightHrts = new Card("Hearts", 8);
+        
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
     }
